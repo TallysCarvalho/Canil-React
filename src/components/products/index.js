@@ -1,37 +1,36 @@
-import React from 'react'
+import React from "react";
 import {
-    ProductsContainer,
-    ProductsHeading,
-    ProductWrapper,
-    ProductCard,
-    ProductImg,
-    ProductInfo,
-    ProductTitle,
-    ProductDesc,
-    ProductButton,
-} from './productsElements'
+  ProductsContainer,
+  ProductsHeading,
+  ProductWrapper,
+  ProductCard,
+  ProductImg,
+  ProductInfo,
+  ProductTitle,
+  ProductDesc,
+  ProductButton,
+} from "./productsElements";
 
-const Products = ({heading,data}) => {
-    return (
-        <ProductsContainer>
-            <ProductsHeading>{heading}</ProductsHeading>
-            <ProductWrapper>
-                {data.map((product, index)=>{
-                    return(
-                        <ProductCard key={index}>
-                            <ProductImg src={product.img} alt={product.alt}/>
-                            <ProductInfo>
-                                <ProductTitle>{product.name}</ProductTitle>
-                                <ProductDesc>{product.desc}</ProductDesc>
-                                <ProductButton>{product.button}</ProductButton>
-                            </ProductInfo>
-                        </ProductCard>
-                    )
-                })}
-            </ProductWrapper>
-        </ProductsContainer>
-            
-    )
-}
+const Products = ({ heading, data }) => {
+  return (
+    <ProductsContainer>
+      <ProductsHeading>{heading}</ProductsHeading>
+      <ProductWrapper>
+        {data.map((product, index) => {
+          return (
+            <ProductCard key={index}>
+              <ProductImg src={product.img} alt={product.alt} />
+              <ProductInfo>
+                <ProductTitle>{product.name}</ProductTitle>
+                <ProductDesc>{product.desc}</ProductDesc>
+                <ProductButton>{product.button}</ProductButton>
+              </ProductInfo>
+            </ProductCard>
+          );
+        })}
+      </ProductWrapper>
+    </ProductsContainer>
+  );
+};
 
-export default Products
+export default Products;
