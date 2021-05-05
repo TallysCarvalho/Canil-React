@@ -1,6 +1,6 @@
 # ReactJS-Canil-dos-Husky
 
-<img align="right" width="300" height="300" src="https://toppng.com/uploads/preview/baby-husky-11549702553rjhprp8ppr.png">
+<img align="right" width="300" height="300" src="http://www.pngall.com/wp-content/uploads/5/Full-Grown-Husky.png">
 
 # Welcome!
  
