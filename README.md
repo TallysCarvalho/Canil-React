@@ -6,7 +6,7 @@
  
 ## Canil dos husky
  
-Um site informativo simples sobre o Canil dos husky
+a website informative sample to Canil dos husky
 
  
 ## Technology 
